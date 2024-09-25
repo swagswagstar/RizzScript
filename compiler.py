@@ -40,7 +40,7 @@ def syntax(code):
         'bet': 'or',
         'cook': 'input',
         'ohio': 'import',
-        'kaicenat': 'try',
+        'diddy': 'try',
         'goofy': 'for',
         'ahh': 'for',
         'gronk': 'none',
