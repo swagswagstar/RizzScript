@@ -25,7 +25,7 @@
 #                                                                                                                                 ppppppppp                                                                                                     ppppppppp                                                                   
 #                                                                                                                                                                                                                                                                                                                           
 # I got bored
-# Version b.0.1, 9/25/2024
+# Version b.0.2, 9/25/2024
 # 
 # 
 
@@ -38,7 +38,7 @@ def syntax(code):
         'cap' : 'false',
         'ongod': 'true',
         'bet': 'or',
-        'gooning': 'input',
+        'hawktuah': 'input',
         'ohio': 'import',
         'kaicenat': 'try',
         'goofy': 'for',
