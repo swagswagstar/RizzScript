@@ -7,10 +7,6 @@
 *Not JavaScript! Just Python. And brainrot. God fuckin damnit this sucks*
 
 # Welcome to the **RizzScript** repository!
-
-------
-
-## Overview
 **RizzScript** is a brainrot programming language based off Python, designed for making Python worse than it already is.
 
 ## Features
