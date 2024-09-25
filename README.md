@@ -19,9 +19,8 @@
 
 To create a new RizzScript file, create a new file with the `.rizz` or `.rizzscript` extension. Here’s a simple example: 
 
-```
-skibidi hello_world():    
-	based("Hello World!")
+```rizz
+hawktuah "Hello World!"
 ```
 
 ## Syntax Overview
