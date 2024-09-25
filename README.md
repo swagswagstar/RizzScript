@@ -1,3 +1,4 @@
-![RizzScript](https://github.com/user-attachments/assets/0860c66c-f49b-446c-a7d5-6041052aa756)
+![RizzScript-removebg-preview (1)](https://github.com/user-attachments/assets/58008d30-28e5-4cd9-ab47-d0fbd159c90e)
+![GitHub License](https://img.shields.io/github/license/zekticezy/rizzscript)  
 
 The worst programming language ever made. Based off Python.
