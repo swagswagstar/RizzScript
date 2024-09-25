@@ -25,7 +25,7 @@
 #                                                                                                                                 ppppppppp                                                                                                     ppppppppp                                                                   
 #                                                                                                                                                                                                                                                                                                                           
 # I got bored
-# Version b.0.2, 9/25/2024
+# Version b.0.3, 9/25/2024
 # 
 # 
 
@@ -34,11 +34,11 @@ def syntax(code):
         'skibidi': 'def',
         'sigma': 'if',
         'cooked': 'else',
-        'based': 'print',
+        'hawktuah': 'print',
         'cap' : 'false',
         'ongod': 'true',
         'bet': 'or',
-        'hawktuah': 'input',
+        'cook': 'input',
         'ohio': 'import',
         'kaicenat': 'try',
         'goofy': 'for',
@@ -48,7 +48,7 @@ def syntax(code):
         'opium': 'return',
         'pluh': 'while',
         'ratio': 'elif',
-        'livvydunne': 'lambda'
+        'phonk': 'lambda'
 
     }
     
