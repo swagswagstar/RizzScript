@@ -52,7 +52,6 @@ def syntax(code):
     for brainrot_word, python_word in translations.items():
         code = code.replace(brainrot_word, python_word)
 
-    # Handle missing closing parentheses for print and input
     lines = code.splitlines()
     for i in range(len(lines)):
         if lines[i].strip().startswith("print("):
