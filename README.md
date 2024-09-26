@@ -34,16 +34,13 @@ hawktuah "Hello World!"
 | ongod      | True              |
 | bet        | or                |
 | cook       | input             |
-| ohio       | import            |
+| fanum tax       | import            |
 | diddy      | try               |
-| goofy      | for               |
 | ahh        | for               |
 | gronk      | None              |
 | rizz       | class             |
 | opium      | return            |
 | pluh       | while             |
-| ratio      | elif              |
-| phonk      | lambda            |
 
 ## Contributing
 
