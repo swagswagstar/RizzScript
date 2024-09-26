@@ -46,8 +46,7 @@ def syntax(code):
         'rizz': 'class',
         'opium': 'return',
         'pluh': 'while',
-        'ratio': 'elif',
-        'phonk': 'lambda'
+        'ratio': 'elif'
     }
 
     for brainrot_word, python_word in translations.items():
