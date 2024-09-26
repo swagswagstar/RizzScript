@@ -1,15 +1,12 @@
 ![RizzScript-removebg-preview (1)](https://github.com/user-attachments/assets/58008d30-28e5-4cd9-ab47-d0fbd159c90e)
-![GitHub License](https://img.shields.io/github/license/zekticezy/rizzscript) ![GitHub top language](https://img.shields.io/github/languages/top/zekticezy/rizzscript) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zekticezy/rizzscript) ![GitHub Created At](https://img.shields.io/github/created-at/zekticezy/rizzscript) ![GitHub last commit](https://img.shields.io/github/last-commit/zekticezy/rizzscript) ![GitHub Release](https://img.shields.io/github/v/release/zekticezy/rizzscript?display_name=release&label=latest%20compiler%20version) ![Website](https://img.shields.io/website?url=https%3A%2F%2Frizzscript.zekkie.dev) 
+![GitHub License](https://img.shields.io/github/license/zekticezy/rizzscript) ![GitHub top language](https://img.shields.io/github/languages/top/zekticezy/rizzscript) ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/zekticezy/rizzscript) ![GitHub Created At](https://img.shields.io/github/created-at/zekticezy/rizzscript) ![GitHub last commit](https://img.shields.io/github/last-commit/zekticezy/rizzscript) ![GitHub Release](https://img.shields.io/github/v/release/zekticezy/rizzscript?label=latest%20compiler%20version)
+ ![Website](https://img.shields.io/website?url=https%3A%2F%2Frizzscript.zekkie.dev) 
 
 ------
 
 *Not JavaScript! Just Python. And brainrot. God fuckin damnit this sucks*
 
 # Welcome to the **RizzScript** repository!
-
-------
-
-## Overview
 **RizzScript** is a brainrot programming language based off Python, designed for making Python worse than it already is.
 
 ## Features
@@ -22,9 +19,8 @@
 
 To create a new RizzScript file, create a new file with the `.rizz` or `.rizzscript` extension. Here’s a simple example: 
 
-```
-skibidi hello_world():    
-	based("Hello World!")
+```rizz
+hawktuah "Hello World!"
 ```
 
 ## Syntax Overview
