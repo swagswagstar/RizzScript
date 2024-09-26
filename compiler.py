@@ -39,7 +39,7 @@ def syntax(code):
         'ongod': 'true',
         'bet': 'or',
         'cook': 'input',
-        'ohio': 'import',
+        'fanumtax': 'import',
         'diddy': 'try',
         'goofy': 'for',
         'ahh': 'for',
@@ -49,13 +49,22 @@ def syntax(code):
         'pluh': 'while',
         'ratio': 'elif',
         'phonk': 'lambda'
-
     }
-    
+
     for brainrot_word, python_word in translations.items():
         code = code.replace(brainrot_word, python_word)
+
+    # Handle missing closing parentheses for print and input
+    lines = code.splitlines()
+    for i in range(len(lines)):
+        if lines[i].strip().startswith("print("):
+            if lines[i].count('(') > lines[i].count(')'):
+                lines[i] += ')'
+        elif lines[i].strip().startswith("input("):
+            if lines[i].count('(') > lines[i].count(')'):
+                lines[i] += ')'
     
-    return code
+    return "\n".join(lines)
 
 file_path = input("Enter the path of your .rizz file: ")
 
@@ -64,12 +73,9 @@ try:
         brainrot_code = file.read()
         
         python_code = syntax(brainrot_code)
-        
+
         exec(python_code)
-        
-        function_name = python_code.split('(')[0].split()[-1]
-        exec(f'{function_name}()')
-        
+
 except Exception as e:
     print("Error:", e)
 
