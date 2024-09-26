@@ -34,7 +34,7 @@ def syntax(code):
         'skibidi': 'def',
         'sigma': 'if',
         'cooked': 'else',
-        'hawktuah': 'print',
+        'hawktuah': 'print(',
         'cap' : 'false',
         'ongod': 'true',
         'bet': 'or',
