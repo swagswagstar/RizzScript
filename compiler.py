@@ -41,7 +41,6 @@ def syntax(code):
         'cook': 'input',
         'fanumtax': 'import',
         'diddy': 'try',
-        'goofy': 'for',
         'ahh': 'for',
         'gronk': 'none',
         'rizz': 'class',
