@@ -128,7 +128,7 @@ def syntax(code):
         'nonutnovember': 'nonlocal',
         'pokenutnovember': 'pass',
         'footfetish': 'del',
-        'finthechat': 'continue',
+        'chatisthisreal': 'continue',
         'ilovelean': 'break',
         'looksmaxxing': 'lambda',
         'gassy': 'yield',
