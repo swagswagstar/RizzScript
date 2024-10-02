@@ -20,9 +20,11 @@
 
 To create a new RizzScript file, create a new file with the `.rizz` or `.rizzscript` extension. Here’s a simple example: 
 
-```rizz
+```
 hawktuah "Hello World!"
 ```
+# Compiling
+To compile your RizzScript code, get the `compiler.py` file and place it in your project's directory. Then, run it and enter the name of your `.rs` or `.rizzscript` file. Your code will run, as if it was Python.
 
 ## Syntax Overview
 | RizzScript | Python Equivalent |
