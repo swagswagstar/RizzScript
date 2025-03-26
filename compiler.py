@@ -1,5 +1,6 @@
 from translations import translations
 import os
+import sys
 
 
 def syntax(code):
@@ -7,13 +8,22 @@ def syntax(code):
         code = code.replace(brainrot_word, python_word)
 
     lines = code.splitlines()
+
+    def balance_parentheses(line):
+        stack = []
+        for char in line:
+            if char == "(":
+                stack.append(char)
+            elif char == ")" and stack:
+                stack.pop()
+        # Add missing closing parentheses
+        return line + ")" * len(stack)
+
     for i in range(len(lines)):
-        if lines[i].strip().startswith("print("):
-            if lines[i].count("(") > lines[i].count(")"):
-                lines[i] += ")"
-        elif lines[i].strip().startswith("input("):
-            if lines[i].count("(") > lines[i].count(")"):
-                lines[i] += ")"
+        if lines[i].strip().startswith("print(") or lines[i].strip().startswith(
+            "input("
+        ):
+            lines[i] = balance_parentheses(lines[i])
 
     return "\n".join(lines)
 
@@ -47,10 +57,13 @@ def main():
 
     except ValueError as e:
         print("Error:", str(e))
+        sys.exit(1)
     except FileNotFoundError as e:
         print("Error:", str(e))
+        sys.exit(1)
     except Exception as e:
         print("Error:", str(e))
+        sys.exit(1)
 
 
 if __name__ == "__main__":
