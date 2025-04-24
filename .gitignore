@@ -1,2 +1,4 @@
 *.rizz
 *.rizzscript
+__pycache__
+/test.*
